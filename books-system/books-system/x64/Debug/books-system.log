@@ -1,0 +1,24 @@
+﻿  function.c
+F:\Visual Studio 2022\编程代码\c\books-system\books-system\function.c(50,9): warning C4477: “printf”: 格式字符串“%-15s”需要类型“char *”的参数，但可变参数 1 拥有了类型“Book”
+F:\Visual Studio 2022\编程代码\c\books-system\books-system\function.c(97,9): warning C4477: “scanf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“int”
+F:\Visual Studio 2022\编程代码\c\books-system\books-system\function.c(98,33): warning C4047: “函数”:“char *”与“int”的间接级别不同
+F:\Visual Studio 2022\编程代码\c\books-system\books-system\function.c(98,29): warning C4024: “isbnSearch”: 形参和实参 2 的类型不同
+F:\Visual Studio 2022\编程代码\c\books-system\books-system\function.c(179,14): warning C4101: “ifLeted”: 未引用的局部变量
+  interface.c
+  select.c
+F:\Visual Studio 2022\编程代码\c\books-system\books-system\select.c(26,4): warning C4013: “search”未定义；假设外部返回 int
+F:\Visual Studio 2022\编程代码\c\books-system\books-system\select.c(32,23): warning C4047: “函数”:“List *”与“List **”的间接级别不同
+F:\Visual Studio 2022\编程代码\c\books-system\books-system\select.c(32,18): warning C4024: “saveBooksInfo”: 形参和实参 1 的类型不同
+F:\Visual Studio 2022\编程代码\c\books-system\books-system\select.c(37,23): warning C4047: “函数”:“List *”与“List **”的间接级别不同
+F:\Visual Studio 2022\编程代码\c\books-system\books-system\select.c(37,18): warning C4024: “saveBooksInfo”: 形参和实参 1 的类型不同
+F:\Visual Studio 2022\编程代码\c\books-system\books-system\select.c(38,12): warning C4098: “mainSelect”:“void”函数返回值
+F:\Visual Studio 2022\编程代码\c\books-system\books-system\select.c(14,16): warning C4101: “function”: 未引用的局部变量
+F:\Visual Studio 2022\编程代码\c\books-system\books-system\select.c(49,6): error C2371: “search”: 重定义；不同的基类型
+F:\Visual Studio 2022\编程代码\c\books-system\books-system\select.c(60,4): error C2059: 语法错误:“break”
+F:\Visual Studio 2022\编程代码\c\books-system\books-system\select.c(62,4): error C2059: 语法错误:“break”
+F:\Visual Studio 2022\编程代码\c\books-system\books-system\select.c(64,4): error C2059: 语法错误:“break”
+F:\Visual Studio 2022\编程代码\c\books-system\books-system\select.c(66,4): error C2059: 语法错误:“break”
+F:\Visual Studio 2022\编程代码\c\books-system\books-system\select.c(68,4): error C2059: 语法错误:“break”
+  test.c
+  正在生成代码...
+F:\Visual Studio 2022\编程代码\c\books-system\books-system\function.c(97): error C4700: 使用了未初始化的局部变量“isbn”
